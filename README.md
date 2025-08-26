@@ -28,8 +28,8 @@ pip install uv
 
 ### 2. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd <your-project-name>
+git clone https://github.com/fof-headless/movie-search-assignment
+cd movie-search-assignment
 ```
 
 ### 3. Install Dependencies
@@ -78,8 +78,8 @@ For a complete setup from scratch:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone and navigate to project
-git clone <your-repository-url>
-cd <your-project-name>
+git clone https://github.com/fof-headless/movie-search-assignment
+cd movie-search-assignment
 
 # Install dependencies
 uv pip install -r requirements.txt

@@ -113,3 +113,6 @@ def search_movies(query, top_n=5, csv_path='movies.csv', embeddings_dir='embeddi
 
 
     return results[['title', 'plot', 'similarity']]
+
+if __name__ == "__main__":
+    print(search_movies("spy thriller in paris", top_n=3))

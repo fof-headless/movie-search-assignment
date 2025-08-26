@@ -48,7 +48,7 @@ uv pip install -r requirements.txt
 ```
 
 ### 1. CSV Setup
-First, run the database setup script:
+First, run the database setup script , THIS IS OPTIONAL THIS WILL GENERATE A LARGER DATASET 
 ```bash
 uv run database.py
 ```
@@ -85,6 +85,7 @@ cd movie-search-assignment
 uv pip install -r requirements.txt
 
 # Setup database
+# THIS IS OPTIONAL THIS WILL GENERATE A LARGER DATASET 
 uv run database.py
 
 # Run application
